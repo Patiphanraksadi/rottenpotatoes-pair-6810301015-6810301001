@@ -11,7 +11,7 @@ Template repository for Lab L1 (310-2205 Software Engineering, semester 2/2569).
 2. Owner = บัญชีของคุณ, Repository name = `rottenpotatoes-<รหัสนักศึกษา>`, Public, ไม่ติ๊ก Include all branches แล้วกด **Create repository from template**
 3. เปิด IntelliJ IDEA กด **Clone Repository**, เลือก GitHub ด้านซ้าย, เลือก repository ใหม่ของคุณ, กด Clone แล้วกด **Trust Project**
 4. เปิด Terminal ใน IntelliJ แล้วรัน `./mvnw -B verify` (Windows: `mvnw.cmd -B verify`) ต้องจบด้วย `BUILD SUCCESS`
-5. ทำ Lab L1 ตามสไลด์ แล้วกรอก `docs/L1.md`
+5. ทำ Lab L1 ตามสไลด์ แล้วกรอก `docs/L2.md`
 
 (Sign in, use this template to create `rottenpotatoes-<student id>` under your own account, clone it in IntelliJ IDEA, run `./mvnw -B verify`, then follow the L1 slides.)
 
@@ -47,7 +47,7 @@ Lab L1 checklist.
 - [ ] commit แดง: เพิ่ม `FizzBuzzTest` แล้ว commit ตอนที่ test ยังไม่ผ่าน (red commit)
 - [ ] commit เขียว: เขียน `FizzBuzz` ให้ test ผ่าน แล้ว commit (green commit)
 - [ ] push แล้ว CI เขียวบน GitHub (push and CI is green)
-- [ ] กรอก `docs/L1.md` ครบ (lab passport filled in)
+- [ ] กรอก `docs/L2.md` ครบ (lab passport filled in)
 
 ## ที่มาของเครื่องมือ
 
@@ -63,9 +63,9 @@ Where the tools come from. ทุกรายการดาวน์โหล�
 | GitHub Actions `actions/checkout@v7`, `actions/setup-java@v6`, `actions/upload-artifact@v7` | GitHub | github.com/actions |
 | Dev container `mcr.microsoft.com/devcontainers/java:25`; VS Code extensions Extension Pack for Java (Microsoft), Spring Boot Tools (VMware), Cucumber (Cucumber) | Microsoft, VMware, Cucumber | mcr.microsoft.com, marketplace.visualstudio.com |
 
-ถ้าเพิ่ม dependency ใหม่ ให้ตรวจผู้ดูแลและแหล่งแบบเดียวกัน แล้วบันทึกใน `docs/L1.md` (Before adding a dependency, check its maintainer and source the same way and record it.)
+ถ้าเพิ่ม dependency ใหม่ ให้ตรวจผู้ดูแลและแหล่งแบบเดียวกัน แล้วบันทึกใน `docs/L2.md` (Before adding a dependency, check its maintainer and source the same way and record it.)
 
 ## นโยบาย AI ขั้น R0
 
-AI policy, level R0: ถามให้ AI อธิบายได้ แต่ห้ามวางcode หรือ test ที่ AI เขียนให้ และให้เขียนบรรทัด `AI used for: … / none` ใน `docs/L1.md`
+AI policy, level R0: ถามให้ AI อธิบายได้ แต่ห้ามวางcode หรือ test ที่ AI เขียนให้ และให้เขียนบรรทัด `AI used for: … / none` ใน `docs/L2.md`
 (Ask AI to explain, never paste AI-written code or tests; record it in the `AI used for:` line.)
