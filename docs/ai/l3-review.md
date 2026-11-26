@@ -1,4 +1,5 @@
-# L3 review of the assistant draft
+# Review of docs/ai/l3-draft.md
+Reviewers: 6810301015 and 6810301001. Checked against docs/intent/movie-filter.md and SMART.
 
 | บรรทัดในร่าง | ปัญหา | ตัดสิน |
 |---|---|---|
@@ -9,3 +10,5 @@
 | 110: "**Suitability is not the same as rating.**" | ข้อกังวลที่ถูกต้อง | เก็บ |
 
 Kept: assumptions in section 4 and concerns in section 5, because the draft itself marks them as guesses.
+Counts: แก้ 2 ตัด 2 เก็บ 1
+Customer proxy: <ใครยืนยันบัตรทั้งสามใบ เมื่อใด>
