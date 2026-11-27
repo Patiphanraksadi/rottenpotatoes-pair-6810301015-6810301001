@@ -11,4 +11,4 @@ Reviewers: 6810301015 and 6810301001. Checked against docs/intent/movie-filter.m
 
 Kept: assumptions in section 4 and concerns in section 5, because the draft itself marks them as guesses.
 Counts: แก้ 2 ตัด 2 เก็บ 1
-Customer proxy: <ใครยืนยันบัตรทั้งสามใบ เมื่อใด>
+Customer proxy: อ.ดำรงค์ฤทธิ์ เศรษฐศิริโชค ยืนยันบัตรทั้งสามใบ เมื่อ 25 พ.ย. 2569
